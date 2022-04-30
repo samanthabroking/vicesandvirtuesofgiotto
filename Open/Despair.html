@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Vice_Despair</title>
+  </head>
+  <body>
+    <div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "ttp://iiif.io/api/presentation/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture11.jpg",
+              "height": 697,
+              "width": 379,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+    <div style="margin:2em"> 
+        <h1 border-top:2em>Despair </h1>
+        <p style="margin-top:-1"> The very upsetting figure of Despair is painted by Giotto as a woman who hanged herself. Her hands are tense, symbolizing a violent death. The tick robe she used to hang herself is knotted to a wooden stick, which is bent by the weight of the lady. Her neck appears to be broken. This figure is the last one on the left side wall before the Last Judgment. From Hell, a demon arrives close to this vice and is pulling out the woman’s hair. Since the woman disobeyed the theological virtue of Hope, and did not appreciate God’s gift of life, she is condemned to be tortured in Hell forever. </p>
+        
+        <p><strong>Artist:</strong> Giotto</p>
+        <p><strong>Dating:</strong> 1303-1305</p>
+        <p><strong>Medium:</strong> Fresco</p>
+        <p><strong>Dimension:</strong> 120x60cm  (47,2x23,6in)</p>
+        <p><strong>Vice Number:</strong> First </p>
+        <p><strong>Opposite Virtue:</strong> Hope </p>
+        <p><strong>Latin Inscription:</strong> Disperatio </p>
+        <p><strong>Picture Linces:</strong> This image and its descriptive content are free to use. No restrictions :) </p>
+      
+      </div>
+  </body>
+</html>

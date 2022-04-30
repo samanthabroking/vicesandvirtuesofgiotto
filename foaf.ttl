@@ -1,0 +1,75 @@
+
+#Websites
+#https://github.com/samanthabroking
+#https://github.com/rachelealba96
+#https://github.com/giadatasinato04 
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://samanthabroking.github.io/samanthabroking/foaf.ttl#me>
+   a foaf:Person ;
+   foaf:givenName "Samantha Hunter Broking" ;
+   foaf:workInfoHomepage <http://samanthabroking.github.io/> ;
+   foaf:nick "Samantha" ;
+   foaf:mbox "samhbroking@gmail.com" ;
+   foaf:age "26" ;
+   foaf:knows "Giada" ;
+   foaf:knows "Rachele" .
+
+<https://github.com/giadatasinato04/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:givenName "Giada Tasinato" ;
+  foaf:nick "Giada" ;
+  foaf:workInfoHomepage <https://github.com/giadatasinato04> ;
+  foaf:mbox "giada.tasinato@gmail.com" ;
+  foaf:age "22" ;
+  foaf:knows "Samantha" ;
+  foaf:knows "Rachele" .
+
+<https://github.com/rachelealba96/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:givenName "Rachele Alba" ;
+  foaf:nick "Rachele" ;
+  foaf:workInfoHomepage <https://github.com/rachelealba96>;
+  foaf:mbox "rachele.alba96@gmail.com" ;
+  foaf:age "26" ;
+  foaf:knows "Samantha" ;
+  foaf:knows "Giada" .
+
+_________________________________________
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Person rdf:about="https://samanthabroking.github.io/samanthabroking/foaf.ttl#me">
+    <foaf:givenName>Samantha Hunter Broking</foaf:givenName>
+    <foaf:workInfoHomepage rdf:resource="http://samanthabroking.github.io/"/>
+    <foaf:nick>Samantha</foaf:nick>
+    <foaf:mbox>samhbroking@gmail.com</foaf:mbox>
+    <foaf:age>26</foaf:age>
+    <foaf:knows>Giada</foaf:knows>
+    <foaf:knows>Rachele</foaf:knows>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://github.com/giadatasinato04/foaf.ttl#me">
+    <foaf:givenName>Giada Tasinato</foaf:givenName>
+    <foaf:nick>Giada</foaf:nick>
+    <foaf:workInfoHomepage rdf:resource="https://github.com/giadatasinato04"/>
+    <foaf:mbox>giada.tasinato@gmail.com</foaf:mbox>
+    <foaf:age>22</foaf:age>
+    <foaf:knows>Samantha</foaf:knows>
+    <foaf:knows>Rachele</foaf:knows>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="https://github.com/rachelealba96/foaf.ttl#me">
+    <foaf:givenName>Rachele Alba</foaf:givenName>
+    <foaf:nick>Rachele</foaf:nick>
+    <foaf:workInfoHomepage rdf:resource="https://github.com/rachelealba96"/>
+    <foaf:mbox>rachele.alba96@gmail.com</foaf:mbox>
+    <foaf:age>26</foaf:age>
+    <foaf:knows>Samantha</foaf:knows>
+    <foaf:knows>Giada</foaf:knows>
+  </foaf:Person>
+
+</rdf:RDF>

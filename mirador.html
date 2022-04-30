@@ -1,0 +1,21 @@
+<html>
+<!-- By default uses Roboto font. Be sure to load this or change the font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+<!-- Container element of Mirador whose id should be passed to the instantiating call as "id" -->
+<header><title>Mirador Viewer</title></header>
+<body>
+<div id="my-mirador"/>
+</body>
+<script src="https://unpkg.com/mirador@beta/dist/mirador.min.js"></script>
+<script type="text/javascript">
+
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+   windows: [{
+  "manifestId": "manifest.json"
+    }]
+});
+
+</script>
+
+</html>

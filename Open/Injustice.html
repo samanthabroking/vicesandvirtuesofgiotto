@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Vice_Injustice</title>
+  </head>
+  <body>
+    <div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture12.jpg",
+              "height": 697,
+              "width": 379,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+    <div style="margin:2em"> 
+        <h1 border-top:2em>Injustice </h1>
+        <p style="margin-top:-1">As the central Virtue, Justice, Giotto depicts her as a Queen sitting on her throne, symbolizing her centrality of human relationships. She is holding a scale in each hand that display two different standing figures. The one in her right hand shows an angel who is hurting a perpetrator with a sword. The figure in her left hand is a different angel, who is crowning a wise man. These two scenes are the allegory of the recognition and eulogy of the righteous, and punishment of the wicked. On the pedestal underneath her throne, scenes of happiness and prosperity are depicted. They represent the wealthy life that people live when Justice rules.</p>
+        
+        <p><strong>Artist:</strong> Giotto</p>
+        <p><strong>Dating:</strong> 1303-1305</p>
+        <p><strong>Medium:</strong> Fresco</p>
+        <p><strong>Dimension:</strong>120x60cm  (47,2x23,6in)</p>
+        <p><strong>Vice Number:</strong> Fourth </p>
+        <p><strong>Opposite Virtue:</strong> Justice </p>
+        <p><strong>Latin Inscription:</strong> Iniusticia </p>
+        <p><strong>Picture Linces:</strong> This image and its descriptive content are free to use. No restrictions :)  </p>
+      
+      </div>
+  </body>
+</html>

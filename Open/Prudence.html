@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Virtue_Prudence</title>
+  </head>
+  <body>
+    <div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture01.jpg",
+              "height": 697,
+              "width": 379,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+    <div style="margin:2em"> 
+        <h1 border-top:2em>Prudence </h1>
+        <p style="margin-top:-1">Prudence is a scholar sitting at a desk. In front of her, she has an open book, and she is holding a mirror. Looking in the mirror, she can check what is happening behind her back. This gesture symbolizes how cautious people always analyze the whole situation before making important decisions. For the same reason, she is also holding a compass with her right hand. The fact that she is reading a book shows how prudent people are willing to learn about things past, present, and future before acting.</p>
+        
+        <p><strong>Artist:</strong> Giotto</p>
+        <p><strong>Dating:</strong> 1303-1305</p>
+        <p><strong>Medium:</strong> Fresco</p>
+        <p><strong>Dimension:</strong>120x60cm  (47,2x23,6in)</p>
+        <p><strong>Virtue Number:</strong> Seventh </p>
+        <p><strong>Opposite Virtue:</strong> Foolishness </p>
+        <p><strong>Latin Inscription:</strong> Prudentia </p>
+        <p><strong>Picture Linces:</strong> This image and its descriptive content are free to use. No restrictions :)  </p>
+      
+      </div>
+  </body>
+</html>

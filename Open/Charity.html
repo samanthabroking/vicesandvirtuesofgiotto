@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Virtue_Charity</title>
+  </head>
+  <body>
+    <div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues/Picture05.jpg",
+              "height": 697,
+              "width": 379,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+    <div style="margin:2em"> 
+        <h1 border-top:2em>Charity </h1>
+        <p style="margin-top:-1">Charity is a young girl wearing a rose crown, symbolizing the happy life she is living on Earth. Moreover, this crown associates her with the Virgin Mary, the woman who dedicated herself and her heart to humanity.On her right hand she holds a basket full of fruits and flowers that are being offered to the spectators as nurturing and Holy gifts. These are the symbols of the wealth and abundance that charitable people experience in life. With her left hand, she is reaching over the top corner of her rectangular space, where God himself is giving her a filled bag, a symbol of His Providence. She is modestly dressed even though she stands on bags full of money, which alludes to her desire of helping those in need. </p>
+        
+        <p><strong>Artist:</strong> Giotto</p>
+        <p><strong>Dating:</strong> 1303-1305</p>
+        <p><strong>Medium:</strong> Fresco</p>
+        <p><strong>Dimension:</strong>120x55cm  (47,2x21,6in)</p>
+        <p><strong>Virtue Number:</strong> Second </p>
+        <p><strong>Opposite Virtue:</strong> Envy </p>
+        <p><strong>Latin Inscription:</strong> Karitas </p>
+        <p><strong>Picture Linces:</strong> This image and its descriptive content are free to use. No restrictions :)  </p>
+      
+      </div>
+  </body>
+</html>
